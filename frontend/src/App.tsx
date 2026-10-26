@@ -17,7 +17,7 @@ import BreakdownChart from "./BreakdownChart";
 const mw = (v: number) => Math.round(v).toLocaleString();
 
 export default function App() {
-  const [q, setQ] = useState<Query>({ start: "2026-01-01", end: "2026-01-07", decisionHour: 9 });
+  const [q, setQ] = useState<Query>({ start: "2026-01-01", end: "2026-01-31", decisionHour: 9 });
   const [by, setBy] = useState<"horizon" | "hour">("horizon");
   const [points, setPoints] = useState<Point[]>([]);
   const [metrics, setMetrics] = useState<Metrics>({ n: 0 });
