@@ -1,5 +1,5 @@
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import type { BreakdownRow } from "../api";
+import type { BreakdownRow } from "./api";
 
 interface Props {
   rows: BreakdownRow[];
