@@ -1,4 +1,4 @@
-import type { Query } from "../api";
+import type { Query } from "./api";
 
 interface Props {
   value: Query;
