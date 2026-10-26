@@ -1,4 +1,4 @@
-import type { Coverage, Metrics } from "../api";
+import type { Coverage, Metrics } from "./api";
 
 const mw = (v?: number) => (v === undefined ? "–" : `${Math.round(v).toLocaleString()} MW`);
 
