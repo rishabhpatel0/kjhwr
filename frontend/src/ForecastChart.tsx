@@ -9,7 +9,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import type { Point } from "../api";
+import type { Point } from "./api";
 
 const fmt = (iso: string) =>
   new Date(iso).toLocaleString("en-GB", {
